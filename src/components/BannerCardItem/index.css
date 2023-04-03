@@ -1,0 +1,79 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+
+.container-1 {
+  width: 60%;
+  height: 30vh;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 50%;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.seasons-text {
+  font-family: 'Robot';
+  font-size: 16px;
+  color: #cbced2;
+  font-weight: bold;
+}
+
+.button-styling {
+  border: 2px solid #326a9d;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-size: 15px;
+  color: #64748b;
+  width: 120px;
+  padding: 5px;
+}
+
+@media screen and(min-width:768px) {
+  .container-1 {
+    width: 70%;
+  }
+
+  .container {
+    width: 60%;
+  }
+
+  .heading {
+    font-size: 27px;
+  }
+
+  .seasons-text {
+    font-size: 18px;
+  }
+
+  .button-styling {
+    width: 130px;
+  }
+}
